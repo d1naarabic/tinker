@@ -213,11 +213,13 @@
 
         .blog{
             width: 100%;
+            padding: 4rem 0;
             display: grid;
             align-items: center;
             justify-content: center;
             text-align: center;
             background-image: url(/img/banner_bg.jpg) ;
+
         }
 .blog__content {
     display: grid;
@@ -227,10 +229,50 @@
 }
 .blog__content .text{
 background-color: rgba(0, 0, 0, 0.5);
+color: #fff;
+
 }
+.blog__content .text p{
+    text-align: justify;
+    width: 95%;
+    margin: 0 auto;
+}
+
 .blog__content .text h2{
-    color: white;
-    font-size: 6rem;
-    margin-top: 1rem;
-    font-size: var(--real);
+    font-size: 2rem;
+    margin-top: 0.4rem;
 }
+.blog__content .text p{
+    font-family: var(--real);
+}
+.blog__content .text .text__item{
+    background-color: #F89624;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 10px 0px;
+    font-size: 1.3rem ;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.blog__content .item {
+    background-color: #fff;
+    text-align: left;
+}
+.blog__content .item  .title{
+
+    width: 95%;
+    margin: 0 auto;
+}
+.blog__content .item  .title h2{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.blog__content .item .title span{
+    color: #2CAAB8;
+}
+.blog__content .item  .title p{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}  
+        
