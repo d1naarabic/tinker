@@ -1,0 +1,16 @@
+@media  only screen  and (max-width:768px){
+    .nav__logo{
+        display: block;
+    } 
+    .navbar__nav a{
+        display: none;
+    }
+    .banner h1{
+        font-size: 2rem;  
+    }
+    .smart__content, .our__content, .blog__content, .copy__content{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}

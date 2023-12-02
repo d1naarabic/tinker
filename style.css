@@ -275,4 +275,59 @@ color: #fff;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }  
+     .contact{
+        width: 100%;
+        padding: 2rem 0;
+        background-color: rgb(90, 82, 82);
+     }  
+     .contact__content{
+        text-align: center;
+       
+     }
+     .contact__content .text h2{
+        font-family: var(--roboto);
+        color: #fff;
+        margin-bottom: 2rem;
+        border-bottom: 2px solid black;
+        display: inline;
+     }
+     
+     .contact__content .text p{
+       
+        margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+     }
+     .contact__content .text button{
+        padding: 15px 35px;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 30px;
+        border: 1px solid #fff;
+        background-color: rgb(37, 170, 223);
+        margin-bottom: 3rem;
+     
+     }
+     .contact__content .text button a{
+        color: black;
+        font-size: 1rem;
+     }
+     .map iframe{
+        width: 100%;
+
         
+     }
+
+     .copy{
+        width: 100%;
+        padding: 4rem 0;
+        background-color: rgb(102, 94, 94);
+        color: white;
+     }
+     .copy__content{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        gap: 0.3rem;
+     }
+.copy__content .item h2{
+    color: white;
+}
